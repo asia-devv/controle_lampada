@@ -347,7 +347,7 @@ Smart-Lamp/
 ## 1. Clonar o repositório
 
 ```bash
-git clone https://github.com/Leonardo-Daniel-SC/controle_lampada.git
+git clone https://github.com/asia-devv/controle_lampada.git
 ```
 
 Entre na pasta:

@@ -4,7 +4,8 @@ import Home from "./pages/Home"
 import Header from "./components/Header"
 import Footer from "./components/Footer"
 import { useEffect, useState } from "react";
-import Historico from "./pages/Historico"
+import Card from "./components/Card"
+
 
 const App = () => {
   const [dispositivos, setDispositivos] = useState(() => {
@@ -39,6 +40,7 @@ const App = () => {
           onDeviceCreated={adicionarDispositivo}
           onDeviceDeleted={removerDispositivo}
         />
+        <Card/>
           <Routes>
             <Route path="/" element={<Home dispositivos={dispositivos} />}/>
           </Routes>
